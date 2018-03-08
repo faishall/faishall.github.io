@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^(.*)\.html$ $1.php [L]
+
+AddHandler application/x-httpd-php .php .html
